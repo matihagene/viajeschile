@@ -6,12 +6,26 @@ body {
 
 nav {
     font-weight: 300;
+    z-index: 200;
 }
 
 .navbar-brand img {
     height: 60px;
 }
 
-.nav-bg {
-    background-color: #3a3a3a;
+.navbar-wrapper {
+    position:relative;
+}
+.carousel {
+    top:0;
+}
+.carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+    }
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    width:100%;
 }
