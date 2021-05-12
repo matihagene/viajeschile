@@ -1,0 +1,17 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f6f6;
+    color: #3a3a3a;
+}
+
+nav {
+    font-weight: 300;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.nav-bg {
+    background-color: #3a3a3a;
+}
