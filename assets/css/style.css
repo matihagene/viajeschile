@@ -14,7 +14,7 @@ nav {
 }
 
 .navbar-wrapper {
-    position:relative;
+    position:;
 }
 .carousel {
     top:0;
@@ -23,9 +23,13 @@ nav {
     width: 100%; 
     overflow: hidden;
     }
+
 .navbar {
-    position:absolute;
     top:0;
-    z-index:10;
+    z-index:200;
     width:100%;
+}
+
+.bg-navbar {
+    background-color: #3a3a3a;
 }
