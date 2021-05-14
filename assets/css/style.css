@@ -66,3 +66,35 @@ p {
     color: #bf0404;
     font-weight: 400;
 }
+
+.card-1 {
+    background-image: url(../img/card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: auto;
+}
+
+.card-2 {
+    background-image: url(../img/card2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: auto;
+}
+
+.card-3 {
+    background-image: url(../img/card3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: auto;
+}
+
+.card-4 {
+    background-image: url(../img/card4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: auto;
+}
