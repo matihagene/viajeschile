@@ -11,6 +11,7 @@ body {
 nav {
     font-weight: 300;
     z-index: 200;
+    transition: 0.1s;
 }
 
 .navbar-brand img {
@@ -98,4 +99,8 @@ p {
     background-repeat: no-repeat;
     height: 180px;
     width: auto;
+}
+
+#comprar {
+    cursor: no-drop;
 }

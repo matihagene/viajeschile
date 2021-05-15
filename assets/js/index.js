@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById('navbar_top').classList.remove('fixed-top');
         document.getElementById('navbar_top').classList.remove('bg-navbar');
         document.getElementById('navbar_top').classList.add('position-absolute');
-        document.getElementById('start').classList.add('active');
+        document.getElementById('start').classList.add('active'); //Clase para dejar activa la sección Home on top
         document.getElementById('navbar_top').classList.remove('p-1');
         document.getElementById('navbar_top').classList.add('p-4');
         document.getElementById('navbar_top').classList.remove('navbar-light');
@@ -21,4 +21,9 @@ document.addEventListener("DOMContentLoaded", function(){
         // Se remueven los atributos añadidos
       } 
   });
-}); 
+});
+
+//Se activa popover de Bootstrap JS
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
